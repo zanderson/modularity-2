@@ -119,6 +119,8 @@ ol.pagination li:last-child a:hover {
 	text-decoration: none;
 }
 
+
+
 /* Comment Stream */
 .main {
 	overflow: hidden;
@@ -128,14 +130,22 @@ ol.pagination li:last-child a:hover {
 	float: left;
 	padding-right:10px;
 	padding-bottom: 20px;
-	list-style: none;
-}
+	}
+
 .none {
 	list-style-type: none;
 }
 
+.time {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.nested {
+    overflow: hidden;
+}
+
 /* Tabs */
-/*----- Tabs -----*/
 .tabs {
     width:100%;
     display:inline-block;
