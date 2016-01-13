@@ -120,29 +120,28 @@ ol.pagination li:last-child a:hover {
 }
 
 
-
 /* Comment Stream */
-.main {
-	overflow: hidden;
-}
 
-.left {
-	float: left;
-	padding-right:10px;
-	padding-bottom: 20px;
-	}
-
-.none {
-	list-style-type: none;
-}
-
-.time {
-    font-weight: bold;
-    font-size: 10px;
-}
-
-.nested {
+.stream {
     overflow: hidden;
+}
+.comment-content {
+    padding-left: 5px 0;
+}
+.comment-content > time {
+    color: rgb(150,150,150);
+    font-size: 12px;
+    padding-left: 5px
+}
+
+.comment-img {
+    float: left;
+    padding: 5px;
+}
+
+time {
+    color: rgb(150,150,150);
+    font-size: 12px;
 }
 
 /* Tabs */
@@ -152,11 +151,9 @@ ol.pagination li:last-child a:hover {
 }
  
     /*----- Tab Links -----*/
-    /* Clearfix */
     .tab-links:after {
         display:block;
         clear:both;
-        content:'';
     }
  
     .tab-links li {
@@ -172,20 +169,18 @@ ol.pagination li:last-child a:hover {
             background: white;
          	border: solid black 1px;
          	border-bottom: none;
-            font-size:16px;
-            font-weight:600;
+            font-size:14px;
             color:#4c4c4c;
             transition:all linear 0.15s;
         }
  
         .tab-links a:hover {
-            background:#a7cce5;
-            text-decoration:none;
+            text-decoration: underline;
         }
  
     li.active a, li.active a:hover {
         background:#fff;
-        color:#4c4c4c;
+        color:#4c4c4c; 
     }
  
     /*----- Content of Tabs -----*/
@@ -193,7 +188,6 @@ ol.pagination li:last-child a:hover {
         padding:15px;
         border-radius:3px;
         border: 1px solid gray;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
         background:#fff;
         width: 600px;
     }
