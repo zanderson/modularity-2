@@ -19,10 +19,10 @@
 	    		<p class="instruction-text">Center multiple arbitrary elements horizontally, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<img src="http://placehold.it/160">
-							<img src="http://placehold.it/160">
-							<img src="http://placehold.it/160">
+						<div class="boxes">
+							<div class="box"><img src="http://placehold.it/160"></div>
+							<div class="box"><img src="http://placehold.it/160"></div>
+							<div class="box"><img src="http://placehold.it/160"></div>
 						</div>
 				    <!-- End editable area -->
 			    </div>
@@ -30,12 +30,12 @@
 	    		<p class="instruction-text">Works with different HTML...</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<img src="http://placehold.it/120">
-							<img src="http://placehold.it/160">
-				    	<p>Oh hello</p>
-							<img src="http://placehold.it/80">
-							<ol>
+						<div class="boxes">
+							<div class="box"><img src="http://placehold.it/120"></div>
+							<div class="box"><img src="http://placehold.it/160"></div>
+				    	<p class="inline">Oh hello</p>
+							<div class="box"><img src="http://placehold.it/80"></div>
+							<ol class="box-list">
 								<li>Ready</li>
 								<li>Fire</li>
 								<li>Aim</li>
@@ -51,8 +51,8 @@
 	    		<p class="instruction-text">Center arbitrary elements vertically, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<div>
+						<div class="boxes2">
+							<div class="box2">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
@@ -65,7 +65,7 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<div>
-							<div>
+							<div class="boxes2">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/20">
 					    	<p>Oh hello</p>
@@ -87,10 +87,10 @@
 	    		<p class="instruction-text">Make the list items horizontal instead of vertical.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
-							<li>Ready</li>
-							<li>Fire</li>
-							<li>Aim</li>
+			    	<ul class="list2">
+							<li class="elements">Ready</li>
+							<li class="elements">Fire</li>
+							<li class="elements">Aim</li>
 			    	</ul>
 				    <!-- End editable area -->
 			    </div>
@@ -102,18 +102,20 @@
 	    		<p class="instruction-text">Create a set of different-sized buttons.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<a href="#">Buy Now</a>
-			    	<a href="#">Learn More</a>
-			    	<a href="#">OK</a>
+			    	<button class="buy-now"><a href="#">Buy Now</a></button>
+			    	<button class="learn-more"><a href="#">Learn More</a></button>
+			    	<button class="ok"><a href="#">OK</a></button>
 				    <!-- End editable area -->
 			    </div>
 
 	    		<p class="instruction-text">Should work with both &lt;a&gt;, &lt;button&gt;, and &lt;submit&gt; elements.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<a href="#">Learn More</a>
+			    	
+			    	<input type="button" href="#" value="Learn More">
 			    	<input type="button" href="#" value="Accept">
 			    	<input type="submit" href="#" value="Submit">
+			    	</div>
 				    <!-- End editable area -->
 			    </div>
 			  </li>
@@ -125,12 +127,12 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<nav>
-			    		<ul>
-			    			<li><a href="#">Home</a></li>
-			    			<li><a href="#">Products</a></li>
-			    			<li><a href="#">About</a></li>
-			    			<li><a href="#">News</a></li>
-			    			<li><a href="#">Contact</a></li>
+			    		<ul class="navbar">
+			    			<li><a class="item" href="http://www.yahoo.com" target="_blank">Home</a></li>
+			    			<li><a class="item" href="http://www.refactoru.com">Products</a></li>
+			    			<li><a class="item" href="http://www.refactoru.com">About</a></li>
+			    			<li><a clas="item"href="http://www.refactoru.com">News</a></li>
+			    			<li><a class="item" href="http://www.refactoru.com">Contact</a></li>
 			    		</ul>
 			    	</nav>
 				    <!-- End editable area -->
@@ -143,12 +145,12 @@
 	    		<p class="instruction-text">Style a pagination control for navigating through pages of search results.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ol>
+			    	<ol class="pagination">
 			    		<li><a href="#">prev</a></li>
 			    		<li><a href="#">5</a></li>
 			    		<li><a href="#">6</a></li>
 			    		<li><a href="#">7</a></li>
-			    		<li><span>8</span></li>
+			    		<li><a href="#">8</a></li>
 			    		<li><a href="#">9</a></li>
 			    		<li><a href="#">10</a></li>
 			    		<li><a href="#">11</a></li>

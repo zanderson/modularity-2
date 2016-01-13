@@ -1,1 +1,120 @@
 /* ADD YOUR STYLES HERE */
+/* Exercise 1 / 2 */
+.box, .inline{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+.boxes {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+/* Exercise 2 */
+.box-list {
+	display: inline-block;
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+/* Exercise 3 */
+.boxes2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.list2, .elements{
+  float: left;
+  list-style: none;
+  padding: 0;
+}
+
+/* Exercise 4 - BUTTONS */
+
+.buy-now, .learn-more, .ok, input[type="button"], input[type="submit"]{
+	border-radius: 5px;
+	background-color: #fb9797;
+	border: none;
+	text-decoration: none;
+}
+.buy-now {
+	height: 70px;
+	width: 250px;
+	}
+.learn-more {
+	height: 40px;
+	width: 160px;
+}
+.ok {
+	width: 50px;
+	height: 40px;
+}
+a, input[type="button"], input[type="submit"] {
+	color: white;
+	text-decoration: none;
+}
+input[type="button"], input[type="submit"] {
+	height: 40px;
+	width: 100px;
+}
+
+/* Exercise 5 - NAVBAR */
+.navbar {
+	background-color: #fb9797; 
+	display: inline-block;
+	list-style-type: none;
+	width: 400px;
+	float: left;
+	border-radius: 5px;
+	margin: auto;
+}
+.navbar a {
+	color: white;
+	float: left;
+	display: block;
+	padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+/* Change the link color on hover */
+.navbar a:hover {
+    background-color: violet;
+    color: white;
+}
+
+/* Pagination */
+ol.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ol.pagination li {
+	display: inline;
+}
+
+ol.pagination li a {
+    color: #fb9797;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: underline;   
+}
+
+ol.pagination li:first-child a {
+	text-decoration: none;
+}
+
+ol.pagination li:last-child a {
+	text-decoration: none;
+}
+
+ol.pagination li a:hover {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: underline;
+    color: gray;
+}
+ol.pagination li:first-child a:hover {
+	text-decoration: none;
+}
+ol.pagination li:last-child a:hover {
+	text-decoration: none;
+}
